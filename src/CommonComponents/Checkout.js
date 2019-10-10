@@ -4,7 +4,6 @@ class Checkout extends Component{
 render(){
     const{
           cart,
-          clearCart
         } = this.props.value;
         const emptyCart = cart.length === 0 ? true : false;
         return (
