@@ -15,7 +15,8 @@ class Search extends Component{
       }
     render(){
            let d=BooksData.filter((book)=>{
-          return book.title.indexOf(this.state.search)!==-1;
+          return (book.title.indexOf(this.state.search)!==-1,
+          book.genre.toLowerCase().indexOf(this.state.search)!==-1)
       })
       return(
           <div>
