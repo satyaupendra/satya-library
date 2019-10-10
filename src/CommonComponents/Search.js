@@ -22,7 +22,7 @@ class Search extends Component{
           <div>
               <h1></h1>
         <form class="form-inline active-purple-4">
-        <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search By Name of Book"
+        <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search By Name of Book or Genre"
             aria-label="Search"
           value={this.state.search}
           onChange={this.updateSearch.bind(this)}/>
