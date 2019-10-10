@@ -27,8 +27,10 @@ render(){
               );
             } 
             else if(cart.length>3){
-                return <ExcessCart/>
-            }
+                return (
+                  <>
+                <ExcessCart value={value}/> 
+                <CartList value={value}/></>)  }
             else {
               return <EmptyCart />;
             }
