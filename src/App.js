@@ -9,7 +9,7 @@ import Cart from './CommonComponents/Cart/Cart';
 import Checkout from './CommonComponents/Checkout';
 import Default from './CommonComponents/Default';
 import Modal from './CommonComponents/Modal';
-
+import Search from './CommonComponents/Search'
 class App extends Component{
   render(){
     return(
@@ -19,6 +19,7 @@ class App extends Component{
       <Route exact path="/" component={BooksList}/>
       <Route path="/details" component={Details}/>
       <Route path="/cart" component={Cart}/>
+      <Route path="/search" component={Search}/>
       <Route  component={Default}/>
     </Switch>
     <Modal/>

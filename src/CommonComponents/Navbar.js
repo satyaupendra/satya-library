@@ -12,11 +12,14 @@ render(){
             </Link>
             <ul className="navbar-nav align-items-center">
               <li className="nav-item ml-5">
-                <Link to="/" className="nav-link">
+              <Link to="/" className="nav-link">
                     Books
                 </Link>
               </li>
             </ul>
+            <Link to="/search" className="nav-link">
+                    Search
+                </Link>
             <Link to="/cart" className="ml-auto">
                 <ButtonContainer>
                     <span className="mr-2">

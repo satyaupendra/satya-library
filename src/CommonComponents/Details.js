@@ -25,7 +25,13 @@ render(){
                         <h4>Year of Publication : {yof}</h4>
                         <h4 className="text-title text-uppercase text-muted mt-3 mb-2">genre : 
                         <span className="text-uppercase">{genre}</span></h4>
-                       
+                        <p>
+                        {available?(
+                        <h4 className="text-capitalize mb-0" disabled>
+                        <font color="green">Available</font></h4>
+                        ):(<h4><font color="red">Not Available</font></h4>)}
+                        </p>
+                        
                         <p className='text-capitalize font-weight-bold mt-3 mb-0'>
                             Description:
                         </p>
