@@ -17,7 +17,7 @@ render(){
                         className="btn btn-outline-primary text-uppercase mb-3 px-5"
                         type="button"
                         onClick={() => {
-                            alert("Thank You");
+                            alert("Thank You..!");
                           }
                         }
                       >
