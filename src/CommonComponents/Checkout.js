@@ -4,7 +4,12 @@ class Checkout extends Component{
 render(){
     const{
           cart,
+          clearCart
         } = this.props.value;
+      const clear=()=>{
+        alert("Thank You..!");
+        clearCart();
+      }
         const emptyCart = cart.length === 0 ? true : false;
         return (
             <div>
@@ -17,9 +22,8 @@ render(){
                         className="btn btn-outline-primary text-uppercase mb-3 px-5"
                         type="button"
                         onClick={() => {
-                            alert("Thank You..!");
-                          }
-                        }
+                            clear();
+                        }}
                       >
                         Check Out
                       </button>
