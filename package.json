@@ -2,7 +2,7 @@
   "name": "satya-library",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://satyaupendra.github.io/satya-library/",
+  "homepage": "https://satyaupendra.github.io/library/",
   "dependencies": {
     "bootstrap": "4.3.1",
     "react": "^16.10.2",
